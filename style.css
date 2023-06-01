@@ -1,0 +1,979 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+nav {
+    background-color: black;
+}
+
+ul.topnav {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+
+ul.topnav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    color: white;
+    margin-top: 5px;
+}
+
+ul.topnav li a:hover {
+    text-decoration: underline 3px rgb(0, 255, 221);
+
+}
+
+.bold {
+    font-size: 55px;
+    font-weight: 800;
+    color: white;
+    margin-left: 3%;
+}
+
+span {
+    font-size: 60px;
+    color: #eeb50a;
+}
+
+/* img {
+    width: 1200px;
+    margin: 30px;
+} */
+
+div.first {
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/recipes/19/87/1/6oQgcxmsRlmGZHgMCFyd_0S9A9866.jpg);
+    background-size: cover;
+    width: 1200px;
+    margin: 30px;
+    height: 700px;
+    color: white;
+}
+
+.first h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 50%;
+    padding-top: 260px;
+    padding-left: 5%;
+    margin-bottom: 10px;
+
+}
+
+.first button {
+    margin-left: 5%;
+    padding: 20px 40px;
+    background-color: #eeb50a;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.first button:hover {
+    background-color: #eeb50add;
+}
+
+div.divid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divid h2 {
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.divid p a {
+    float: right;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-top: 10px;
+    color: rgb(4, 75, 169);
+}
+
+.flexone {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.cheese,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.cheese p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.chicken,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.chicken p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.brownies,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.brownies p {
+    font-size: 20px;
+    width: 90%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.potatoes,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.potatoes p {
+    font-size: 20px;
+    width: 90%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.second h2 {
+    float: left;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.group .casseroles {
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_1:1/v1/img/recipes/26/04/76/tnFRdHRiS3GZ4bpRVlRT_breakfast-tater-tot-casserole-3522.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.casseroles p {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 290px;
+    padding-left: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.casseroles h2 {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.group .mayo {
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_4:3/v1/img/upload/editorial/cinco_de_mayo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.mayo p {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 290px;
+    padding-left: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.mayo h2 {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.group .recipes {
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_4:3/v1/img/recipes/54/72/6/JHPjkwTS0OLeAtIL8gp4_chicken%20and%20mushrooms-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.recipes p {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 290px;
+    padding-left: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.recipes h2 {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+div.third {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.third h2 {
+    float: left;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.quick img {
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 170px;
+}
+
+.quick p {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.spring img {
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 170px;
+}
+
+.spring p {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.eats img {
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 170px;
+}
+
+.eats p {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.picks img {
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 170px;
+}
+
+.picks p {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.brunch img {
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 170px;
+}
+
+.brunch p {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.copycat img {
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 170px;
+}
+
+.copycat p {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.trending h2 {
+    float: left;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.trending p a {
+    float: right;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-top: 30px;
+    color: rgb(4, 75, 169);
+}
+
+.trendpics {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.tofu,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.tofu p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.lynn,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.lynn p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.baked,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.baked p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.eggplant,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.eggplant p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.dontmiss {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.dontmiss .grilled {
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_4:3/v1/img/recipes/18/80/76/dH3qnjgpRkqpOMNodESZ_indian-tamarind-yogurt-chicken-6744.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.grilled p {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 290px;
+    padding-left: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.grilled h2 {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.dontmiss .dinner {
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_4:3/v1/img/recipes/88/48/6/hvp18l2QTwS5if9lbXwp_FC_BEER_N_BBQ_BRAISED_PORK_RIBS_H_f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.dinner p {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 290px;
+    padding-left: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.dinner h2 {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.dontmiss .simple {
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_4:3/v1/img/recipes/53/68/25/UdeHCRfnQDI6P0zh5aw5_0S9A3724.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.simple p {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 290px;
+    padding-left: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.simple h2 {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+div.grape,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.grape p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.dark,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.dark p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.crock,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.crock p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 0%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.toast,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.toast p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 0%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.doughnut {
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.doughnut img {
+    width: 750px;
+    margin-left: 30px;
+}
+
+.doughnut .bb {
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.doughnut p {
+    width: 350px;
+    padding: 50px;
+    padding-bottom: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.doughnut p.pp {
+    padding-top: 0;
+    text-transform: capitalize;
+}
+
+.doughnut h2 {
+    width: 350px;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+div.rump,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.rump p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.fajitas,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.fajitas p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.sauce,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.sauce p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.beef,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.beef p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.banana,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.banana p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.whipped,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.whipped p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.award,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.award p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.waffles,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.waffles p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.oven,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.oven p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.seabass,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.seabass p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.pancakes,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.pancakes p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.steak,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.steak p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.wings,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.wings p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.loaf,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.loaf p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.skyline,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.skyline p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.sticks,
+img {
+    width: 270px;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.sticks p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+footer .foot {
+    background-color: rgba(217, 215, 215, 0.559);
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.foot h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.foot input {
+    width: 800px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+input[placeholder] {
+    font-size: 20px;
+}
+
+.foot button {
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #eeb50a;
+    border: none;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 780px) {
+
+
+    nav ul.topnav li:not(:nth-child(1)) {
+        width: 100%;
+        display: none;
+    }
+
+    div.first {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+
+    }
+
+    div.group {
+        display: block;
+        width: 100px;
+
+    }
+
+    /* .casseroles,
+    .mayo,
+    .recipes {
+        display: block;
+        width: 500px;
+    } */
+
+
+    div.circle {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 97%;
+    }
+
+    .dontmiss {
+        display: block;
+        width: 100%;
+    }
+
+    .doughnut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .doughnut img {
+        width: 94%;
+    }
+
+    .doughnut .bb {
+        margin-left: 30px;
+        margin-top: 5px;
+        width: 530px;
+    }
+
+
+
+    .foot h2 {
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .foot input {
+        width: 400px;
+    }
+
+    .foot button {
+        width: 400px;
+    }
+
+
+}
